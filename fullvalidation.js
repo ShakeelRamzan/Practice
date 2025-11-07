@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 
 // ---------- VALIDATION FUNCTIONS ----------
 
-// ✅ Name Validation
+//  Name Validation
 const validateName = (req) => {
   if (!req) return "Name is required";
   req = req.trim();
@@ -17,7 +17,7 @@ const validateName = (req) => {
   return null;
 };
 
-// ✅ Email Validation
+//  Email Validation
 const validateEmail = (req) => {
   if (!req) return "Email is required";
   req = req.trim().toLowerCase();
