@@ -1,0 +1,12 @@
+let num = [10, 20, 30, 40, 50];
+let iter = num[Symbol.iterator]();
+console.log("Next One");
+console.log(iter.next().value);
+console.log("Next One");
+console.log(iter.next().value);
+console.log("Next One");
+console.log(iter.next().value);
+console.log("Next One");
+console.log(iter.next().value);
+console.log("Next One");
+console.log(iter.next().value);
